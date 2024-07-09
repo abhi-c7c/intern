@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <img src="Banner.png" alt="Banner Image" class="banner-img">
+        <div class="login-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="options">
+                <button id="phone-option" class="option-btn active">Phone No</button>
+                <button id="email-option" class="option-btn">Email</button>
+            </div>
+            <form id="phone-form" class="form active-form">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Phone number" required>
+                <button type="submit" class="next-btn">Next</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
